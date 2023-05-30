@@ -1,0 +1,33 @@
+.abilities{
+    height: 90vh;
+    overflow-y: scroll;
+    width:90%;
+    margin: auto;
+
+    color: whitesmoke;
+}
+.abilities h1{
+    font-size: 2.5rem;
+    margin: auto;
+    width:200px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.483);
+    border-radius: 10px;
+}
+.abilities p{
+    font-size: 1rem;
+    margin: 20px 0;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .abilities{
+        position: static;
+    }
+    .abilities p{
+        padding:10px;
+        font-size: 0.9rem;
+    }
+
+}
+

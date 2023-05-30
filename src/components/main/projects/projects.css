@@ -1,0 +1,39 @@
+.project_box{
+    /* border: 2px solid var( --box1-bg-color) ; */
+    width:100%;
+   
+    color:#fff;
+
+    padding-top: 10px;
+    box-shadow: 0 0 20px var( --box1-bg-color);
+
+    
+}
+.video_proj{
+    margin: auto;
+    width:90%;
+    height:200px;
+}
+.video_proj video{
+    height: 100%;
+    width:100%;
+}
+.project_box h1{
+    background-color:var( --box1-bg-color);
+    color: whitesmoke;
+    margin:auto;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+  
+}
+@media only screen and (max-width: 600px) {
+    .project_box {
+      position: static;
+      padding:40px 0px;
+      margin-top: 20px;
+    }
+    
+}
