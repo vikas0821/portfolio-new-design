@@ -5,7 +5,7 @@ function Content(props) {
     const r4="fa-regular fa-star"
   return (
     <div className="content_box">
-      <h3 data-aos={props.dataAos} data-aos-duration={props.dataAosDuration}>
+      <h3 className="p-1 my-1 text-xl text-white-100 bg-extradarkcream-800 inline-block ">
         {props.contentTitle}
       </h3>
       {props.contentTitle==="Coding"

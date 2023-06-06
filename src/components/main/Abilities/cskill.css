@@ -6,8 +6,12 @@
 }
 .rating h6{
     font-size: 0.9rem;
-    font-weight: lighter;
+    font-weight: bold;
+    color: var(--extradarkcream);
 }
 .r_box{
     margin-top: 2px;
+}
+.r_box i{
+    color: var(--extradarkcream);
 }

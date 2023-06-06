@@ -15,21 +15,32 @@
     margin: auto;
     padding:10px;
     border-radius: 5px;
+    background-color: var(--white);
+    border: 2px solid var(--extradarkcream);
+    color:var(--extradarkcream);
 }
+input:focus {
+    border: none;
+  }
 .form_box textarea{
     border-radius: 5px;
     padding: 10px;
+    background-color: var(--white);
+    border: 2px solid var(--extradarkcream);
 }
 .form_box button{
     padding:10px;
-    color: whitesmoke;
-    background-color: black;
+    font-weight: bold;
+    color: var(--extradarkcream);;
+    border:2px solid var(--extradarkcream);
     border-radius: 10px;
     font-size: 1.5rem;
     cursor: pointer;
+
 }
 .form_box button:hover{
-    background-color: rgba(0, 0, 0, 0.901);
+    color: whitesmoke;
+    background-color:  var(--extradarkcream);
 }
 @media screen and (max-width: 768px) {
     .form_box{

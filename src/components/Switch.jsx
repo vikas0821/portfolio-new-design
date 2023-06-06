@@ -12,7 +12,7 @@ import Certificate from "./main/Certification/Certificate"
 
 function Switch() {
   return (
-    <div className="flex h-screen  bg-zinc-900">
+    <div className="flex h-screen bg-cream-200">
      <div className="w-80 h-full ">
         <Sidebar />
      </div>

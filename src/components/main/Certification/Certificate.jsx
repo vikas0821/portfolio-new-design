@@ -4,9 +4,9 @@ import Slideshow from './Slideshow'
 
 function Certificate() {
   return (
-    <section className="certi_box">
-        <h1 data-aos="fade-up" data-aos-duration="1200">CERTIFICATES</h1>
-        <Slideshow dataAos="flip-right" dataAosDuration="3000" />
+    <section className="w-4/5 mt-11 bg-darkcream-400 p-5 justify-center text-white-200 overflow-y-auto border-8 border-white-100">
+        <h1 className="text-2xl pb-5 font-bold text-white-100 text-center" >CERTIFICATES</h1>
+        <Slideshow />
     </section>
   )
 }

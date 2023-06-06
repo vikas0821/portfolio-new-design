@@ -5,9 +5,7 @@
     color:#fff;
 
     padding-top: 10px;
-    box-shadow: 0 0 20px var( --box1-bg-color);
-
-    
+    box-shadow: 0 0 20px var( --box1-bg-color); 
 }
 .video_proj{
     margin: auto;
@@ -29,6 +27,30 @@
     text-align: center;
   
 }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:var(--white);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--extradarkcream);
+    border-radius: 20px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--darkcream);
+  }
+
+
+
 @media only screen and (max-width: 600px) {
     .project_box {
       position: static;

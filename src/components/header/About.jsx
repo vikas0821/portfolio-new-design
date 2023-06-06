@@ -1,17 +1,21 @@
 import React from 'react'
+import Navbar from "./Navbar"
 
 function About() {
     return (
-        <div className=" w-4/5 m-auto p-5 justify-center bg-black text-white mt-20 ">
-            <div>
-                <h2 className="text-5xl">Hello everyone!</h2>
-                <h2 className='text-2xl mt-10'>My Name is Vishwanath & I'am from Yadgir Karnataka.
-                    I did My Graduation in Mechanical Engineering from New Horizon College of Engineering.
+        <div className=" flex flex-col gap-10 w-4/5 p-5 justify-center text-extradarkcream-800 bg-white-100 font-bold  mt-20 border-8 border-extradarkcream-800  ">
+            <div className='flex flex-col gap-5'>
+                <h2 className="text-3xl text-center font-bold">Hello Everyone!</h2>
+                <h2 className='text-3xl'>My name is Vishwanath. I'm MERN Stack Developer</h2>
+                <h2 className='text-xl'>I'm from Yadgir Karnataka.
+                    I graduated in Mechanical Engineering from New Horizon College of Engineering.
                 </h2>
+                <p className='text-xl'>My hobbies are Reading news-paper, Listning music, Travelling, playing games etc..</p>
             </div>
-            <div>
-                <p>My hobbies: Reading News Paper Listning Music Travelling playing Games</p>
+            <div >
+                <Navbar />
             </div>
+            
         </div>
     )
 }

@@ -1,17 +1,23 @@
-import "./contact.css"
-import Info from "./Info"
-import Form from "./Form"
+import "./contact.css";
+import Info from "./Info";
+import Form from "./Form";
 function Contact() {
   return (
-   <section className="contact_box">
-        <div> <h1 data-aos="fade-up" data-aos-duration="1500">HIRE ME</h1></div>
-        <div className="contact_container">
-        <Info  />
-        <Form />
+    <section className="w-4/5 mt-11 p-5 justify-center bg-white-100 text-white-200 overflow-y-auto border-8 border-extradarkcream-800">
+      <div>
+        {" "}
+        <h1 className="text-3xl text-extradarkcream-800 font-bold text-center py-1">
+          HIRE ME
+        </h1>
+      </div>
+      <div className="contact_container">
+        <div className=" p-2 text-white-100 bg-extradarkcream-800 font-bold">
+          <Info />
         </div>
-        
-   </section>
-  )
+        <Form />
+      </div>
+    </section>
+  );
 }
 
-export default Contact
+export default Contact;

@@ -2,13 +2,14 @@
     padding-top: 10px;
     width: 90%;
     min-width: 300px;
-    margin-bottom: 40px;
+   
 }
 .content_box h3{
     font-size: 1.2rem;
     text-align: left;
     padding-bottom: 10px;
 }
+
 .solidstar:hover{
    color: yellow;
 }
