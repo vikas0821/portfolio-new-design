@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import web1 from"../../assests/photo/IMG_0468.jpg"
-import web2 from"../../assests/photo/IMG_0468.jpg"
-import web3 from"../../assests/photo/IMG_0468.jpg"
-import web4 from"../../assests/photo/IMG_0468.jpg"
+import web1 from"../../assests/photo/cdac.jpg"
+import web2 from"../../assests/photo/udemy.jpg"
+import web3 from"../../assests/photo/cdac.jpg"
+import web4 from"../../assests/photo/udemy.jpg"
 import "./slideshow.css";
 
 const slides = [
